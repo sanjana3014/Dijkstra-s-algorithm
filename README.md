@@ -12,11 +12,11 @@ The maze solver reads from an input file, calculates the shortest path using Dij
 ## Features
 
 - **Load Test Cases**: A function to load maze configurations, start positions, and destinations from an input file.
-- 
+  
 - **MinHeap Class**: A custom min-heap data structure to support the priority queue required by Dijkstra's algorithm.
-- 
+  
 - **Dijkstra's Shortest Path**: The core algorithm that calculates the shortest path from the start to the destination in the maze.
-- 
+  
 - **Input/Output Handling**: Structured I/O to accept formatted mazes and output the shortest path to an output file.
 
 ## How It Works
@@ -24,11 +24,11 @@ The maze solver reads from an input file, calculates the shortest path using Dij
 The code includes several key components:
 
 - **`Load_testcases(filename)`:** Parses input file into test cases.
-- 
+  
 - **`MinHeap`:** Implements heap operations crucial for the performance of Dijkstra's algorithm.
-- 
+  
 - **`getShortestPath(maze, start, destination)`:** Computes the shortest path using the algorithm.
-- 
+  
 - An alternate method suggests the possibility of using Python's built-in `heapq` for heap operations.
 
 ## Test Cases
@@ -36,7 +36,7 @@ The code includes several key components:
 Test cases provided in the input file include:
 
 - Simple mazes with clear paths.
-- 
+  
 - More complex mazes with multiple routes.
 
 Each test case consists of the maze matrix and start-destination coordinates, and the output is the ordered list of coordinates from the start to the destination.
